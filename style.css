@@ -1,0 +1,38 @@
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Allura', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Tangerine', cursive;
+}
+
+h1 {
+    font-size: 60px !important;
+    color: white;
+}
+
+canvas {
+    animation-name: Project;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Project {
+    from {
+        box-shadow: 1px 1px 25px red;
+        border: 2px dashed black;
+
+    }
+
+    To {
+        box-shadow: 1px 1px 25px rgb(188, 64, 19);
+        border: 2px dashed black;
+
+    }
+}
+
+.btn {
+    font-size: 25px;
+}
